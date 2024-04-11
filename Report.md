@@ -17,9 +17,28 @@
 
   but what exactly is congruence?
   
-  ## Congruence
+  # Congruence and Linear Congruence
   
-  Cong
+  Congruence is an integral part of modular arithmetic.
+
+  You may see an expression like:
+
+  ![image](https://github.com/Snapskillz123/LCG/assets/149099858/c659b35f-b320-4d89-ab13-38d61f73845f)
+
+  This says that A is congruent to B modulo C.
+
+  The three lines are the symbol of congruence
+
+  Here's an example:
+  
+  ![image](https://github.com/Snapskillz123/LCG/assets/149099858/ffafc168-0432-4e60-92a5-7c1c6ed5bcd7)
+
+  26-11 is congruent with 0(mod 5) and hence this equation is congruent because 15 mod 5 is 0.
+
+  
+
+ 
+ 
 
   
 
