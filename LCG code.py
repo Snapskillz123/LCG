@@ -1,5 +1,3 @@
-# Python3 implementation of the
-# above approach
 
 # Function to generate random numbers
 def linearCongruentialMethod(Xo, m, a, c, randomNums,noOfRandomNums):
