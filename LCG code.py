@@ -2,9 +2,7 @@
 # above approach
 
 # Function to generate random numbers
-def linearCongruentialMethod(Xo, m, a, c, 
-							randomNums,
-							noOfRandomNums):
+def linearCongruentialMethod(Xo, m, a, c, randomNums,noOfRandomNums):
 
 	# Initialize the seed state
 	randomNums[0] = Xo
@@ -14,8 +12,7 @@ def linearCongruentialMethod(Xo, m, a, c,
 	for i in range(1, noOfRandomNums):
 		
 		# Follow the linear congruential method
-		randomNums[i] = ((randomNums[i - 1] * a) +
-										c) % m
+		randomNums[i] = ((randomNums[i - 1] * a) +c) % m
 		
 
 # Driver Code
@@ -41,15 +38,13 @@ if __name__ == '__main__':
 	randomNums = [0] * (noOfRandomNums)
 
 	# Function Call
-	linearCongruentialMethod(Xo, m, a, c,
-							randomNums, 
-							noOfRandomNums)
+	linearCongruentialMethod(Xo, m, a, c,randomNums, noOfRandomNums)
 
 	# Print the generated random numbers
 	for i in randomNums:
 		print(i, end = " ")
 
-# This code is contributed by mohit kumar 29
+
 
 
 
